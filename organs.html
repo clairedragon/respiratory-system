@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Respiratory System - Organs</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f8ff;
+      color: #333;
+    }
+
+    header {
+      background-color: #0077b6;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #023e8a;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      font-size: 18px;
+      display: inline-block;
+    }
+
+    nav a:hover {
+      background-color: #00b4d8;
+      border-radius: 5px;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1100px;
+      margin: auto;
+      background: white;
+      padding: 20px;
+      box-shadow: 0px 0px 10px gray;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+
+    .section {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      background: #ecf0f1;
+      padding: 20px;
+      margin-top: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .text {
+      flex: 1 1 60%;
+      min-width: 250px;
+    }
+
+    .image {
+      flex: 1 1 35%;
+      text-align: center;
+      min-width: 250px;
+    }
+
+    .image img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0px 0px 5px gray;
+    }
+
+    h2 {
+      color: #023e8a;
+    }
+
+    h1{
+color:white
+    }
+
+    h3 {
+      color: #023e8a;
+    }
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    .learn-more {
+      display: inline-block;
+      margin-top: 10px;
+      background-color: #0077b6;
+      color: white;
+      padding: 10px 15px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+
+    .learn-more:hover {
+      background-color: #00b4d8;
+    }
+
+    @media (max-width: 768px) {
+      .section {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .text, .image {
+        flex: 1 1 100%;
+        padding: 0;
+      }
+    }
+
+    footer {
+      background-color: #0077b6;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to the Respiratory System Website</h1>
+      </header>
+
+  <nav>
+    <a href="index2.html">Home</a>
+    <a href="organs.html">Organs</a>
+    <a href="condition.html">Condition</a>
+    <a href="video.html">Video</a>
+  </nav>
+
+  <div class="container">
+    <h3>Major Organs of the Respiratory System</h3>
+    <p>The respiratory system is made up of organs that work together to help us breathe. Each organ has a specific role in the process of taking in oxygen and removing carbon dioxide from the body.</p>
+
+    <div class="section">
+      <div class="text">
+        <h2>Nose and Nasal Cavity</h2>
+        <p><strong>Definition:</strong> The nose is the external part of the respiratory system and the nasal cavity is the internal space behind it.</p>
+        <p><strong>Function:</strong> These structures serve as the primary entrance for outside air into the respiratory system. They warm, filter, and moisten the air before it travels to the lungs.</p>
+        <a href="learnmore-nose.html" class="learn-more">Learn More</a>
+      </div>
+      <div class="image">
+        <img src="nasal.jpg" alt="Nose and Nasal Cavity">
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="text">
+        <h2>Trachea (Windpipe)</h2>
+        <p><strong>Definition:</strong> The trachea is a tube-like structure that connects the larynx to the bronchi.</p>
+        <p><strong>Function:</strong> It allows air to pass from the throat to the lungs. Its rigid structure, supported by cartilage rings, prevents collapse during breathing.</p>
+        <a href="learnmore-trachea.html" class="learn-more">Learn More</a>
+      </div>
+      <div class="image">
+        <img src="trachea.jpg" alt="Trachea">
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="text">
+        <h2>Bronchi and Bronchioles</h2>
+        <p><strong>Definition:</strong> The bronchi are the two large branches of the trachea that enter the lungs and further divide into smaller tubes called bronchioles.</p>
+        <p><strong>Function:</strong> They distribute air throughout the lungs and control the flow of air to the alveoli where gas exchange occurs.</p>
+        <a href="learnmore-bronchi.html" class="learn-more">Learn More</a>
+      </div>
+      <div class="image">
+        <img src="bronchi_lungs.jpg" alt="Bronchi and Bronchioles">
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="text">
+        <h2>Lungs</h2>
+        <p><strong>Definition:</strong> The lungs are two large, spongy organs located in the chest cavity.</p>
+        <p><strong>Function:</strong> They house millions of alveoli that absorb oxygen from inhaled air and release carbon dioxide during exhalation.</p>
+        <a href="learnmore-lungs.html" class="learn-more">Learn More</a>
+      </div>
+      <div class="image">
+        <img src="lungs.jpg" alt="Lungs">
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="text">
+        <h2>Diaphragm</h2>
+        <p><strong>Definition:</strong> The diaphragm is a large, dome-shaped muscle located below the lungs.</p>
+        <p><strong>Function:</strong> It contracts and flattens when you inhale, creating a vacuum that pulls air into the lungs. It relaxes when you exhale, pushing air out.</p>
+        <a href="#" class="learn-more">Learn More</a>
+      </div>
+      <div class="image">
+        <img src="19072.jpg" alt="Diaphragm">
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Respiratory System Education | All rights reserved.
+  </footer>
+</body>
+</html>
